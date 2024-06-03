@@ -1,0 +1,227 @@
+:root {
+    --background-color: ;
+    --text-color: ;
+}
+
+.alertOne {
+    background-color: blue;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 1s;
+}
+
+.thema-1 {
+    background-color: var(--background-color);
+    width: 120px;
+    color: var(--text-color);
+    border-color: var(--text-color);
+    border-radius: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.thema-1:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.thema-2 {
+    background-color: var(--background-color);
+    width: 120px;
+    color: var(--text-color);
+    border-color: var(--text-color);
+    border-radius: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.thema-2:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.thema-3 {
+    background-color: var(--background-color);
+    width: 120px;
+    color: var(--text-color);
+    border-color: var(--text-color);
+    border-radius: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.thema-3:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.thema-4 {
+    background-color: var(--background-color);
+    width: 120px;
+    color: var(--text-color);
+    border-color: var(--text-color);
+    border-radius: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.thema-4:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+* {
+    background-color: var(--background-color)
+}
+
+.dices {
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.headings {
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.credits {
+    column-count: 5;
+    column-fill: balance;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.dices-computer-player {
+    transition-duration: 1s;
+    column-count: 2;
+    color: black;
+}
+
+.dices-player {
+    transition-duration: 1s;
+    column-count: 2;
+}
+
+.message {
+    column-count: 3;
+    column-fill: balance;
+    width: 1000;
+}
+
+.message-box {
+    transition-duration: 1s;
+    border-radius: 100px;
+    border: 2px solid;
+    border-color: var(--text-color);
+
+}
+
+.controls {
+    padding: 10px;
+    column-count: 6;
+    column-fill: balance;
+}
+
+.dice {
+    transition-duration: 1s;
+    font-size: 80pt;
+    color: var(--text-color);
+}
+
+button {
+    transition-duration: 1s;
+    border-radius: 100px;
+    width: 100%;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+
+h2 {
+    text-align: left;
+    position: fixed;
+}
+
+.go-button {
+    cursor: pointer;
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+.go-button:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.lower-button {
+    cursor: pointer;
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+.lower-button:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.higher-button {
+    cursor: pointer;
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+.higher-button:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.dice-button {
+    cursor: pointer;
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+.dice-button:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
